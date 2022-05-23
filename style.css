@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('./Images/background.png');
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font: 'Inter'!important;
+}
+.logo {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 7.22%;
+  right: 89.98%;
+  top: 3.74%;
+  bottom: 92.21%;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(135deg, #05C2FF 7.9%, #0357EE 92.12%);
+}
+.logo-text {
+  position: absolute;
+  left: 17.94%;
+  right: 90.7%;
+  top: 20.94%;
+  bottom: 93.41%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-header {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 183px;
+  top: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.left-container {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 4px;
+  top: 5px;
+  background: #9B51E0;
+  border-radius: 8px;
+}
+.folio {
+  position: absolute;
+  left: 17.5%;
+  right: 33.5%;
+  top: 18.33%;
+  bottom: 8.33%;
+}
+.left-properties-2 {
+  position: absolute;
+  right: -60px;
+}
+.left-properties-2 .content {
+  width: 47px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 109%;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.left-properties-2 .content-para {
+  width: 26px;
+  height: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 109%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.showcase {
+  display: block;
+  text-align: center;
+  margin-top: 5rem;
+  color: #FFFFFF;
+}
+.showcase-content {
+  margin-bottom: 0.7rem;
+}
+.less {
+  font-weight: normal;
+  font-size: 50px;
+}
+.unlock strong {
+  font-size: 65px;
+  font-weight: 700;
+}
+.unlocks > .less {
+  font-weight: normal;
+  font-size: 50px;
+}
+.unlocks > strong {
+  font-size: 55px;
+  font-weight: 700;
+}
+.win-content {
+  font-size: 20px;
+  margin: 1rem 0;
+}
+.howtoplay-container {
+  display: block;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17), inset 0px 2px 0px rgba(255, 255, 255, 0.24);
+  border-radius: 8px;
+  width: 450px;
+  padding: 1rem 1rem;
+  margin: auto;
+}
+.guess {
+  letter-spacing: -0.02em;
+  font-size: 12px;
+  text-align: left;
+  padding: 0.5rem 1.3rem;
+}
+.list-under {
+  font-size: 12px;
+  margin-left: -6rem;
+  padding-bottom: 0.7rem;
+}
+.howtoplay-container-2 {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  margin-bottom: 0.7rem;
+}
+.light-items {
+  display: flex;
+  text-align: left;
+  font-size: 6px;
+  line-height: 1rem
+}
+.light-icon {
+  padding-right: 0.5rem;
+}
+/* span */
+.light-texts {
+  font-weight: normal;
+}
+.play-container {
+  display: flex;
+  background: #ECAB03;
+  width: 170px;
+  height: 56px;
+  margin: auto;
+  padding: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.play-button {
+  background: #ECAB03;
+  margin: auto;
+  font-size: 14px;
+  border: none;
+  color: #FFFFFF;
+  margin-left: 0.5rem;
+}
+.direction {
+  margin-left: 0.5rem;
+}
+.star-right {
+  margin-top: -28rem;
+  margin-left: 56rem;
+  border-radius: 0.3px;
+}
+.star-left {
+  margin-top: -3rem;
+  margin-right: 58rem;
+}
+.animation {
+  margin-left: -1rem;
+}
+.coins {
+  display: block;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+}
+.coin-image {
+  width: 40%;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: -2%;
+  margin-left: 31%;
+  z-index: 1;
+}
+/* Coins wheel animation begins */
+.coin-clock {
+  margin-bottom: -40rem;
+  height: 60%;
+  margin-left: 10.5rem;
+  animation: 12s ray_anim linear infinite;
+}
+@keyframes ray_anim { 
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}    
+  100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg);}
+}
+.star-left-2 img {
+  margin-left: 22.75rem;
+  position: relative;
+  top: 5rem;
+}
+.star-right-1 img {
+  margin-top: 21rem;
+  margin-right: 34rem;
+}
+.star-right-2 {
+  margin-top: 13rem;
+  margin-right: 33rem;
+}
+/* Star animation */
+.move {
+  width: -18px;
+  height: -2px;
+}
+.star1 {
+  margin-top: -3rem;
+  position: absolute;
+  left: 42%;
+}
+.star-1 {
+  position: relative;
+  color: #ddd2d2;
+  z-index: 2;
+  top: 34rem;
+  text-shadow: 0 0 15px #ECAB03,
+              0 0 30px #ECAB03,
+              0 0 45px #ECAB03,
+              0 0 60px #ECAB03;
+}
+.move-all{
+  position: relative;
+  -webkit-animation: float1 4s infinite  normal ease-out;
+  animation: float1 4s infinite  normal ease-out;
+}
+.move-1 {
+  animation-duration: 15s;
+}
+.move-2 {
+  animation-duration: 8s;
+}
+.move-3 {
+  animation-duration: 22s;
+}
+.move-4{
+  animation-duration: 34s;
+}
+@-webkit-keyframes float1 {
+  0% {
+    top: 100px;
+  }
+  20% {
+    left: -5px;
+  }
+  40% {
+    left: 5px;
+  }
+  60% {
+    left: -5px;
+  }
+  80% {
+    left: 5px;
+  }
+  100% {
+      top: -300px;
+  }
+}
+@keyframes float1 {
+  0% {
+    top: 100px;
+  }
+  20% {
+    left: -5px;
+  }
+  40% {
+    left: 5px;
+  }
+  60% {
+    left: -5px;
+  }
+  80% {
+    left: 5px;
+  }
+  100% {
+      top: -250px;
+  }
+} 
+.star2 {
+  margin-top: -3rem;
+  position: absolute;
+  left: 35%;
+  z-index: 2;
+}
+.star3 {
+  margin-top: -5rem;
+  position: absolute;
+  left: 60%;
+  z-index: 2;
+}
+.star4 {
+  margin-top: -5rem;
+  position: absolute;
+  left: 68%;
+  z-index: 2;
+}
+.star5 {
+  margin-top: -5rem;
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+}
+.coin-movement {
+  display: block;
+  margin-top: -4rem;
+}
+.left-coin {
+  margin-top: -180%;
+  margin-left: 22rem;
+  width: 180px;
+}
+/* Left coin animation begins */
+.lefty {
+  position: relative;
+  -webkit-animation: floatBubble 3.5s linear infinite;
+  animation: floatBubble 3.5s linear infinite;
+}
+@-webkit-keyframes floatBubble {
+  0% {
+      top: -10px;
+  }
+  100% {
+      top: -80px;
+  }
+}
+@keyframes floatBubble {
+  0% {
+      top: 0px;
+  }
+  50%{
+    top: -60px
+  }
+  100% {
+      top: 0px;
+  }
+}
+.right-coin {
+  margin-top: -180%;
+  margin-left: 53rem;
+  width: 130px;
+}
+/* Right coin animation begins */
+.righty {
+  position: relative;
+  -webkit-animation: floatBubble 3s infinite  linear;
+  animation: floatBubble 3s infinite  linear;
+}
+.coin-mobile {
+  display: none;
+}
+.wins {
+  display: none;
+}
+.unlocks {
+  display: none;
+}
+
+/* 529 -  */

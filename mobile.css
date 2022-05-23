@@ -1,0 +1,213 @@
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .logo {
+    left: 43px;
+    right: 89.98%;
+    top: 36px;
+    bottom: 92.21%;
+    border-radius: 8px;
+  }
+  .logo-text {
+    position: absolute;
+    left: 17.94%;
+    right: 90.7%;
+    top: 20.94%;
+    bottom: 93.41%;
+  }
+  .left-header {
+    right: 83px;
+    top: 31px;
+  }
+  .unlock strong {
+    font-size: 35px;
+    word-break: break-all;
+  }
+  .win-content {
+    font-size: 16px;
+  }
+  .howtoplay-container {
+    width: 300px;
+  }
+  .list-under {
+    font-size: 12px;
+    margin-left: 0.6rem;
+    text-align: start;
+  }
+  /* span */
+  .light-texts {
+    font-weight: normal;
+  }
+  .play-container {
+    display: flex;
+    background: #ECAB03;
+    width: 170px;
+    height: 56px;
+    margin: auto;
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .play-button {
+    background: #ECAB03;
+    margin: auto;
+    font-size: 14px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+  }
+  .direction {
+    margin-left: 0.5rem;
+  }
+  .star-right {
+    margin-top: -29rem;
+    margin-left: 20rem;
+    border-radius: 0.3px;
+  }
+  .star-right-1 img {
+    position: relative;
+    margin-top: 24rem;
+    margin-right: 1rem;
+    z-index: -1;
+  }
+  .star-right-2 img {
+    display: none;
+  }
+  .star-left img {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  .star-left-2 img {
+    margin-left: 16.75rem;
+    position: relative;
+    top: 6rem;
+  }
+  .coins {
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+  }
+  .coin-image {
+    width: 80%;
+    margin: 3px;
+    margin-top: -21%;
+    left: 10%;
+  }
+  .animation {
+    width: 100%;
+    display: none;
+  }
+  .coin-clock {
+    margin-bottom: -39rem;
+    margin-left: -14rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    animation: 5s ray_anim linear infinite;
+  }
+  .coin-movement {
+    display: block;
+    margin-top: -5rem;
+    position: relative;
+    width: 100%;
+  }
+  .lefty img, .righty img{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .left-coin {
+    margin-top: -43%;
+    margin-left: -2rem;
+    width: 180px;
+  }
+  .right-coin {
+    margin-top: -30%;
+    margin-left: 16rem;
+    width: 130px;
+  }
+  .showcase {
+    width: 100vw;
+  }
+  .coin-mobile {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    bottom: -450px;
+  }
+  .plate2 img {
+    position: absolute;
+    top: 0;
+    bottom: -18px;
+    width: 400px;
+    height: 30%;
+    z-index: 1;
+  }
+  .coins1 img {
+    position: absolute;
+    top: -160px;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+  }
+  /* Star animation */
+  .star1 {
+    margin-top: -5rem;
+    position: absolute;
+    left: 42%;
+  }
+  .star2 {
+    margin-top: -5rem;
+    position: absolute;
+    left: 35%;
+    z-index: 2;
+  }
+  .star3 {
+    margin-top: -5rem;
+    position: absolute;
+    left: 60%;
+    z-index: 2;
+  }
+  .star4 {
+    margin-top: -5rem;
+    position: absolute;
+    left: 32%;
+    z-index: 2;
+  }
+  .star5 {
+    margin-top: -5rem;
+    position: absolute;
+    left: 75%;
+    z-index: 2;
+  }
+  .win {
+    display: none;
+  }
+  .wins {
+    display: block;
+  }
+  .unlock {
+    display: none;
+  }
+  .unlocks {
+    display: block;
+    padding-top: 2rem;
+  }
+  .win-content {
+    font-size: 13px;
+    margin: 1rem 0;
+  }
+  .power {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .less-mobile {
+    font-weight: normal;
+    font-size: 38px;
+  }
+}
